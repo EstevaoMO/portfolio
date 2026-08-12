@@ -1,0 +1,78 @@
+[
+  {
+    "id": "analise-estudantil",
+    "titulo": "Análise de Performance Estudantil",
+    "resumo": "Análise de dados de desempenho estudantil, com visualizações interativas, insights sobre fatores que influenciam o sucesso acadêmico e modelo de predição de desempenho.",
+    "descricao": [
+      "Projeto de análise de dados de desempenho estudantil, com visualizações interativas, insights sobre fatores que influenciam o sucesso acadêmico e modelo de predição de desempenho.",
+      "O projeto foi desenvolvido em R, utilizando Shiny para criar uma aplicação web interativa.",
+      "As principais bibliotecas utilizadas foram: ggplot2, shiny, plotly."
+    ],
+    "imagem": "assets/analise_estudantil.png",
+    "icone": "chart",
+    "cor": "#205295",
+    "tags": ["R", "Machine Learning", "Shiny", "Análise de Dados"],
+    "ano": "2026",
+    "status": "Concluído",
+    "link_repo": "https://github.com/EstevaoMO/analise_rendimento_estudantil",
+    "link_demo": "",
+    "destaque": true
+  },
+    {
+    "id": "analise-bancomaster",
+    "titulo": "Análise do Banco Master",
+    "resumo": "Extração e Análise exploratória dos dados do Banco Master, identificando principais fatores responsáveis para a falência do banco.",
+    "descricao": [
+      "Projeto de extração e análise de dados em Python, utlizando-se de bases de dados públicas.",
+      "O trabalho consistiu em agrupar diferentes conjuntos de dados e realizar uma análise exploratória para identificar os principais fatores, em comparação com outros bancos e entender o ponto de comportamento anômalo da insituição.",
+      "As principais bibliotecas utilizadas foram: pandas, numpy, matplotlib e seaborn."
+    ],
+    "imagem": "assets/analise_banco_master.png",
+    "icone": "chart",
+    "cor": "#205295",
+    "tags": ["Python", "Análise de Dados", "Extração de Dados", "EDA"],
+    "ano": "2026",
+    "status": "Concluído",
+    "link_repo": "https://colab.research.google.com/drive/15Aosm8FvhGxcBWrkDj1Hhgkoiq1Cw3Xp?usp=sharing",
+    "link_demo": "",
+    "destaque": true
+  },
+  {
+    "id": "streamlit-dashboard",
+    "titulo": "Excel para Dashboard com Streamlit",
+    "resumo": "Projeto de dashboard interativo em Streamlit, utilizando dados de uma planilha sintética de vendas de supermercado.",
+    "descricao": [
+      "Esse é um projeto que utiliza dados de uma planilha sintética no contexto de vendas de um supermercado para gerar um dashboard interativo.",
+      "O projeto é simples, apenas para explorar o potencial do Python para criação de sistemas de BI.",
+      "As bibliotecas utilizadas foram: streamlit, pandas e plotly-express."
+    ],
+    "imagem": "assets/streamlit_dashboard.png",
+    "icone": "dashboard",
+    "cor": "#144272",
+    "tags": ["Python", "BI", "Streamlit"],
+    "ano": "2025",
+    "status": "Concluído",
+    "link_repo": "https://github.com/EstevaoMO/ExcelParaDashboard-Streamlit",
+    "link_demo": "",
+    "destaque": true
+  },
+  {
+    "id": "rag-cotacoes",
+    "titulo": "RAG para Cotações de Produtos Farmacêuticos",
+    "resumo": "Workflow de RAG em n8n para automatizar cotações de produtos farmacêuticos, migrado para Supabase pgvector.",
+    "descricao": [
+      "Sistema de Retrieval-Augmented Generation criado para automatizar a resposta a pedidos de cotação de produtos farmacêuticos.",
+      "A primeira versão usava um pipeline em Python com ChromaDB e busca híbrida BM25.",
+      "Todo o fluxo é orquestrado em n8n, separado em fluxo de Chunking, que trata os dados e os armazena, e o fluxo de Consulta, que consome a base de forma inteligente e otimizada."
+    ],
+    "imagem": "assets/rag.png",
+    "icone": "automation",
+    "cor": "#144272",
+    "tags": ["IA", "n8n", "RAG","Embeddings"],
+    "ano": "2026",
+    "status": "Concluído",
+    "link_repo": "https://github.com/EstevaoMO/chunk_catalogo_produtos",
+    "link_demo": "",
+    "destaque": false
+  }
+]
