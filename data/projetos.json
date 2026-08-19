@@ -1,5 +1,33 @@
 [
   {
+    "id": "simplesql",
+    "titulo": "SimplesQL",
+    "resumo": "Uma ferramenta minimalista que traduz linguagem natural em consultas SQL seguras, executa-as sobre um dataset CSV com DuckDB e gera um relatório interpretável e auditável usando modelos de linguagem.",
+    "descricao": [
+      "O SimplesQL é um agente de análise de dados desenvolvido com Python, LangGraph, LangChain e DuckDB.",
+      "O projeto tem como objetivo permitir consultas a bases de dados utilizando linguagem natural.",
+      "O usuário pode formular perguntas sem precisar conhecer previamente a estrutura ou sintaxe SQL.",
+      "Um modelo de linguagem interpreta a solicitação e gera uma consulta SQL correspondente.",
+      "A geração é controlada por prompts e regras para restringir o modelo à produção de consultas SQL.",
+      "Antes da execução, as consultas passam por uma etapa de validação de segurança.",
+      "Com isso, comandos potencialmente destrutivos são identificados e bloqueados.",
+      "As consultas aprovadas são executadas utilizando DuckDB sobre uma base de dados em formato CSV.",
+      "O fluxo completo é estruturado como um grafo de estados utilizando LangGraph.",
+      "Essa arquitetura permite organizar as diferentes etapas do processamento e suas transições.",
+      "O LangChain é utilizado como camada de integração com os modelos de linguagem.",
+      "O projeto utiliza OpenRouter para disponibilizar acesso aos modelos utilizados pelo agente."
+    ],
+    "imagem": "assets/simplesql.png",
+    "icone": "robot",
+    "cor": "#205295",
+    "tags": ["LangGraph/LangChain", "AI", "Agentes", "Automação", "SQL", "Análise de Dados"],
+    "ano": "2026",
+    "status": "incrementando",
+    "link_repo": "https://github.com/EstevaoMO/simplesql-langgraph",
+    "link_demo": "https://simpleql.streamlit.app/",
+    "destaque": true
+  },
+  {
     "id": "analise-estudantil",
     "titulo": "Análise de Performance Estudantil",
     "resumo": "Análise de dados de desempenho estudantil, com visualizações interativas, insights sobre fatores que influenciam o sucesso acadêmico e modelo de predição de desempenho.",
@@ -15,10 +43,10 @@
     "ano": "2026",
     "status": "Concluído",
     "link_repo": "https://github.com/EstevaoMO/analise_rendimento_estudantil",
-    "link_demo": "",
+    "link_demo": "https://estevaobm.shinyapps.io/dashboard_analise_estudantil/",
     "destaque": true
   },
-    {
+  {
     "id": "analise-bancomaster",
     "titulo": "Análise do Banco Master",
     "resumo": "Extração e Análise exploratória dos dados do Banco Master, identificando principais fatores responsáveis para a falência do banco.",
@@ -34,7 +62,7 @@
     "ano": "2026",
     "status": "Concluído",
     "link_repo": "https://colab.research.google.com/drive/15Aosm8FvhGxcBWrkDj1Hhgkoiq1Cw3Xp?usp=sharing",
-    "link_demo": "",
+    "link_demo": "https://colab.research.google.com/drive/15Aosm8FvhGxcBWrkDj1Hhgkoiq1Cw3Xp?usp=sharing",
     "destaque": true
   },
   {
